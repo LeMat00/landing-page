@@ -1,7 +1,10 @@
 # landing-page
+
 My first landing page
 
-Esta es mi primera landing page de los ejercicios de The Odin Project. 
+Esta es mi primera landing-page de los ejercicios de The Odin Project. 
+
+# creditos
 
 Imagenes obtenidas a traves de PIXABAY.com
 Ceramic craft workers - usuario: Quangpraha

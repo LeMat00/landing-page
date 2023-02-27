@@ -5,7 +5,6 @@ body {
     margin: 0;
 }
 
-
 /* header */
 
 .header,
@@ -14,8 +13,9 @@ body {
     color: white;
 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 10px 100px;
 }
 
 h1,
@@ -23,6 +23,9 @@ h1,
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+
+    margin: 0;
+    padding-bottom: 10px;
 }
 
 .logo {
@@ -34,12 +37,6 @@ ul {
     display: flex;
 }
 
-img.hero-img {
-    max-width: 250px;
-    max-height: 250px;
-}
-
-
 a {
     text-decoration: none;
     color: #F9FAF8;
@@ -47,10 +44,129 @@ a {
 }
 
 
+/* first section */
 
+.hero {
+    padding-top: 50px;
+    padding-bottom: 80px;
+    gap: 50px;
+}
 
+.hero-img {
+    width: 700px;
+    height: 250px;
+    border-radius: 8px;
+    flex: auto;
+    border: none;
+
+    object-fit: cover;
+}
+
+button {
+    color: white;
+    font-weight: bold;
+    background-color: #3882F6;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+/* second section */
+
+.second-title {
+    color: #1F2937;
+    text-align: center;
+    padding: 40px 0;
+    font-size: 36px;
+    margin: 0;
+}
 
 img {
-    max-width: 100%;
-    max-height: auto;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 4px solid #3882F6;
+    border-radius: 8px;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+    padding-bottom: 80px;
+}
+
+.card {
+    max-width: 150px;
+    text-align: center;
+}
+
+/* third section */
+
+.third {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+
+    padding: 80px 200px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    text-align: justify;
+}
+
+.thor {
+    align-self: flex-end;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 100px;
+}
+
+.call {
+    width: 700px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 16px;
+
+    padding: 25px 80px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tit-call {
+    font-size: 24px;
+}
+
+.btn-call {
+    height: 40px;
+    width: auto;
+    border: 1px solid #F9FAF8;
+}
+
+p {
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+/* credits */
+
+.credits {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 20px;
 }
