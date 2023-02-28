@@ -61,7 +61,7 @@ a {
     flex: auto;
     border: none;
 
-    object-fit: cover;
+    object-fit: contain;
 }
 
 button {
@@ -147,7 +147,7 @@ img {
     color: #F9FAF8;
     border-radius: 16px;
 
-    padding: 25px 80px;
+    padding: 50px 80px 30px;
 
     display: flex;
     justify-content: space-between;
